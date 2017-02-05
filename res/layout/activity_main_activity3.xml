@@ -1,0 +1,136 @@
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/k"
+    tools:context=".MainActivity3" >
+    
+     <Button
+         android:id="@+id/btn"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_x="110dp"
+         android:layout_y="13dp"
+         android:text="start slideshow" />
+    
+     <ViewFlipper
+        android:id="@+id/flipper1"
+        android:layout_width="match_parent"
+        android:layout_height="364dp"
+        android:flipInterval="3000"
+        android:inAnimation="@android:anim/slide_in_left"
+	    android:outAnimation="@android:anim/slide_out_right"
+        android:layout_x="-1dp"
+        android:layout_y="53dp" 
+       
+          >
+          <!--  <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ORANGE"
+         android:textColor="#F88017"
+        android:textAppearance="?android:attr/textAppearanceLarge" /> -->
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="280dp"
+        android:layout_height="280dp"
+        android:src="@drawable/blue1" ></ImageView>
+        
+     <!-- <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PINK"
+         android:textColor="#FAAFBE"
+        android:textAppearance="?android:attr/textAppearanceLarge" />   -->
+       
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="280dp"
+        android:layout_height="280dp"
+        android:src="@drawable/red" />
+        <!-- 
+       <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="VIOLET"
+         android:textColor="#7D1B7E"
+        android:textAppearance="?android:attr/textAppearanceLarge" /> 
+    
+ -->
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="280dp"
+        android:layout_height="280dp"
+        android:src="@drawable/yellow"/>
+    <!-- 
+     <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="YELLOW"
+         android:textColor="#FFFF00"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+     -->    
+        
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="280dp"
+        android:layout_height="280dp"
+        android:src="@drawable/violet" />
+        
+        
+<!-- <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BLUE"
+         android:textColor="#3BB9FF"
+        android:textAppearance="?android:attr/textAppearanceLarge" /> -->
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="280dp"
+        android:layout_height="280dp"
+        android:src="@drawable/white" />
+        
+     
+     <!--     <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RED"
+         android:textColor="#FF0000"
+        android:textAppearance="?android:attr/textAppearanceLarge" />     
+ -->
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="280dp"
+        android:layout_height="280dp"
+        android:src="@drawable/orange"/>
+        
+    <!-- 
+         <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GREEN"
+        android:textColor="#4CC417"
+        android:textAppearance="?android:attr/textAppearanceLarge" /> 
+ -->
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="280dp"
+        android:layout_height="280dp"
+        android:src="@drawable/green"/>
+
+   
+   
+    </ViewFlipper>
+
+    
+
+</AbsoluteLayout>
